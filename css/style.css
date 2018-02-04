@@ -1,0 +1,345 @@
+/* VAR */
+
+/*MIXINS*/
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../fonts/exo/Exo2.0-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../fonts/exo/Exo2.0-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../fonts/exo/Exo2.0-SemiBold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../fonts/exo/Exo2.0-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../fonts/exo/Exo2.0-Italic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+  src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"), url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"), url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* COMMON */
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  font-family: 'Exo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 1006px) {
+  .container {
+    width: 750px;
+    /*0.755*/
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button {
+  background-color: #ee5730;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* HEADER */
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .logo {
+  margin: 0;
+}
+
+.header .header-text {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  text-shadow: 1px 1px 1px #000;
+  color: #fff;
+}
+
+.header .header-text span {
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.header .header-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header .header-contact .phone {
+  margin-top: 32px;
+  margin-bottom: 7px;
+  color: #66bcff;
+  font-size: 34px;
+  line-height: 34px;
+}
+
+.header .header-contact .button {
+  height: 51px;
+  padding: 0 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* BANNER */
+
+.banner-section {
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  padding-top: 206px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.banner-section .flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+.banner-section p {
+  margin: 0;
+}
+
+.banner-section .banner-title {
+  font-size: 60px;
+  line-height: 60px;
+  text-align: right;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.banner-section .banner-title span {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2px;
+  display: inline-block;
+}
+
+.banner-section .banner-title .bold {
+  margin-bottom: 9px;
+}
+
+.banner-section .banner-color-text {
+  font-size: 42px;
+  color: #ee5730;
+  letter-spacing: -0.42px;
+  margin-bottom: 4px;
+}
+
+.banner-section .banner-color-text sup {
+  font-size: 57%;
+}
+
+.banner-section .banner-text {
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: -0.42px;
+}
+
+.banner-section .banner-action-block {
+  width: 599px;
+  height: 346px;
+  margin-top: 45px;
+  border: 8px solid rgba(255, 255, 255, 0.2);
+  padding: 9px;
+}
+
+.banner-section .banner-action-inner-block {
+  width: 100%;
+  height: 100%;
+  padding: 17px 42px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.banner-section .banner-action-text {
+  font-family: "Myriad", sans-serif;
+  text-transform: none;
+  margin-bottom: 47px;
+  float: left;
+}
+
+.banner-section .banner-action-text .first {
+  float: left;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.banner-section .banner-action-text .second {
+  float: left;
+  font-size: 30px;
+  line-height: 24px;
+  margin-top: 6px;
+  margin-left: 15px;
+}
+
+.banner-section .banner-action-text .color-text {
+  color: #ff6600;
+}
+
+.banner-section .banner-action-text .third {
+  display: block;
+  float: left;
+  font-size: 73px;
+  line-height: 62px;
+  text-transform: uppercase;
+}
+
+.banner-section .banner-action-text .fourth {
+  display: block;
+  float: left;
+  font-size: 29px;
+  line-height: 21px;
+}
+
+.banner-section .button {
+  height: 76px;
+  width: 405px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+}
+
+.banner-section .banner-img {
+  position: absolute;
+  top: -9px;
+  left: -264px;
+}
