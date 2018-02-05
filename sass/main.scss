@@ -31,9 +31,9 @@ $fontColor: #000;
 }
 @font-face {
     font-family: 'Exo';
-    src: url('../fonts/exo/Exo2.0-LightItalic.otf');
+    src: url('../fonts/exo/Exo2.0-Light.otf');
     font-weight: 300;
-    font-style: italic;
+    font-style: normal;
 }
 @font-face {
     font-family: 'Exo';
@@ -98,6 +98,9 @@ body{
 }
 a{
   text-decoration: none;
+}
+p, h1, h2 {
+  margin: 0;
 }
 .container{
   width: 1200px;
@@ -210,23 +213,23 @@ a{
     position: relative;
   }
   
-  p{
-    margin: 0;
-  }
   .banner-title {
     font-size: 60px;
     line-height: 60px;
     text-align: right;
     color: #fff;
+    margin-top: 0;
     margin-bottom: 40px;
     
     span {
       background: rgba(0, 0, 0, .4);
       padding: 2px;
       display: inline-block;
+      font-weight: normal;
     }
     .bold {
       margin-bottom: 9px;
+      font-weight: bold;
     }
   }
   .banner-color-text {
@@ -308,6 +311,408 @@ a{
     position: absolute;
     top: -9px;
     left: -264px;
+  }
+
+}
+
+/* READ MORE SECTION */
+.readmore-section {
+  padding: 74px 0 78px;
+  
+  .flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .readmore-top-text {
+    font-size: 24px;
+    line-height: 24px;
+    color: #b5b5b5;
+    letter-spacing: 4.8px;
+  }
+  .readmore-title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+  .readmore-subtitle {
+    color: #ff6600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .readmore-img {
+    margin-top: 12px;
+    margin-bottom: 2px;
+  }
+  .readmore-bottom-text {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+}
+
+/* YEARS SECTION */
+.years-section {
+  padding-top: 90px;
+  padding-bottom: 59px;
+  background-image: url('../img/years-bg.jpg');
+  background-size: cover;
+
+  .flex {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
+  .top-row {
+    flex-direction: row;
+    padding-bottom: 44px;
+    background: url('../img/years-horisontal.png') 100% 100% no-repeat;
+    
+    .number {
+      font-size: 83px;
+      line-height: 71px;
+      font-weight: 700;
+      color: rgba(0, 0, 0, .3);
+      letter-spacing: -1.8px;
+      margin-right: 95px;
+
+      &:last-child{
+        margin-right: 0;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 24px;
+        font-family: "Myriad", sans-serif;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+        top: -1.7em;
+        letter-spacing: 0px;
+        margin-left: 23px;
+      }
+    }
+  }
+
+  .bottom-row {
+    margin-top: 36px;
+    flex-direction: row;
+
+    .years-item {
+      max-width: 294px;
+      text-align: center;
+      color: #fff;
+
+      &.years-item-1 {
+        margin-left: 85px;
+      }
+      &.years-item-2 {
+        margin-left: 73px;
+      }
+      &.years-item-3 {
+        margin-left: 104px;
+      }    
+  
+      .item-num {
+        margin-bottom: 14px;
+        font-size: 80px;
+        line-height: 70px;
+        font-weight: 700;
+        font-family: "Myriad", sans-serif;
+        text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+
+        span {
+          font-size: 39px;
+          line-height: 0;
+          position: relative;
+          vertical-align: baseline;
+          top: -0.9em;
+        }
+      }
+      .item-desc {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .years-desc {
+    position: absolute;
+    bottom: -29px;
+    right: 0;
+    font-family: "Myriad", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, .3);
+    letter-spacing: -1.3px;
+  }
+
+}
+
+/* EARNINGS SECTION */
+  .earnings-section {
+    padding: 78px 0 86px;
+    color: #fff;
+    background-image: url('../img/earnings-bg.jpg');
+    background-size: cover;
+
+    h2 {
+      font-family: "Myriad", sans-serif;
+      font-weight: 400;
+      font-size: 42px;
+      text-align: center;
+    }
+    .earnings-items {
+      margin-bottom: 57px;
+      text-align: center;
+      justify-content: space-around;
+    }
+
+    .earning-item {
+      padding-top: 64px;
+
+      &.big{
+        padding-top: 0;
+
+        .item-num {
+          margin-top: 27px;
+          margin-bottom: 25px;
+          font-family: 'Exo', sans-serif;
+          font-size: 111px;
+          line-height: 90.67px;
+          letter-spacing: -0.71px;
+
+          span {
+            font-size: 53px;
+            top: -0.9em;
+          }
+        }
+        .item-desc {
+          span {
+            font-size: 71px;
+            line-height: 71px;
+            letter-spacing: -0.71px;
+          }
+        }
+      }
+      
+      .item-num {
+        margin-top: 33px;
+        margin-bottom: 5px;
+        font-size: 87px;
+        line-height: 70px;
+        font-family: "Myriad", sans-serif;
+
+        span {
+          font-size: 39px;
+          line-height: 0;
+          position: relative;
+          vertical-align: baseline;
+          top: -0.9em;
+        }
+      }
+      .item-desc {
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: -1px;
+      }
+
+    }
+
+    .earnings-main {
+      align-items: flex-start;
+      .earnings-img {
+        
+      }
+      .earnings-text-block {
+        padding-top: 17px;
+        padding-left: 38px;
+        position: relative;
+
+        .text {
+          font-family: "Myriad", sans-serif;
+          font-size: 20px;
+          margin-bottom: 45px;
+        }
+        .earnings-arrow {
+          position: absolute;
+          top: 0;
+          left: -55px;
+        }
+      }
+
+    }
+
+    .earnings-bottom {
+      align-items: center;
+      .text-left {
+        margin-right: 47px;
+        font-size: 56px;
+        line-height: 49px;
+        letter-spacing: -2.5px;
+
+        span {
+          font-size: 79px;
+          letter-spacing: -3.54px;
+        }
+      }
+      .text-right {
+        padding-left: 47px;
+        padding-bottom: 17px;
+        border-left: 3px solid #fff;
+        font-size: 37px;
+        line-height: 40px;
+        font-weight: 300;
+
+        span {
+          color: #7da2ff;
+        }
+      }
+    }
+    
+  }
+
+/* EXPERIENCE SECTION */
+.experience-section {
+  padding: 93px 0 29px;
+
+  h2 {
+    font-size: 42px;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+  .experience-desc {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    color: #ff6800;
+    text-align: center;
+  }
+
+  .experience-items {
+    margin-top: 38px;
+    justify-content: space-between;
+  }
+  .item {
+    max-width: 351px;
+
+    img {
+      display: block;
+      margin: 0 auto 40px;
+    }
+    ul {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 400;
+      padding-left: 0;
+      list-style-image: url('../img/experience-marker.png');
+    }
+    li {
+      margin-bottom: 25px;
+      padding-left: 8px;
+    }
+  }
+
+}
+
+/* SYSTEM SECTION */
+.system-section {
+  background-color: #fce8e2;
+  padding-top: 81px;
+  padding-bottom: 75px;
+  
+  .system-desc {
+    font-size: 24px;
+    letter-spacing: 4.8px;
+    color: #767f6f;
+    text-align: center;
+  }
+  h2 {
+    margin: 17px 0;
+    font-size: 42px;
+    line-height: 38px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .bordered-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    border: 2px solid #343030;
+    padding: 8px;
+
+    span {
+      color: #ee562f;
+      font-weight: normal;
+    }
+  }
+
+  .system-items {
+    margin-top: 83px;
+    margin-bottom: 74px;
+    justify-content: center;
+  }
+  .item {
+    position: relative;
+    width: 247px;
+    padding-top: 47px;
+    padding-left: 17px;
+    padding-bottom: 20px;
+    border-right: 3px solid #EDE9E0;
+
+    &:first-child {
+      width: 207px;
+      
+      .desc {
+        margin-left: 0      
+      }
+    }
+
+    .number {
+      position: absolute;
+      top: 13px;
+      right: 36px;
+      font-size: 113px;
+      line-height: 67px;
+      font-weight: 700;
+      color: rgba(0, 0, 0, .1);
+    }
+    .item-title {
+      font-size: 19px;
+      line-height: 21px;
+      height: 63px;
+    }
+    .connector {
+      margin-top: 17px;
+      margin-bottom: 28px;
+      position: relative;
+    }
+    .desc {
+      margin-left: -10px;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: -0.6px;
+      font-weight: 300;
+    }
+    .bold {
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: -0.45px;
+    }
+  }
+
+  .button {
+    font-size: 26px;
+    width: 449px;
+    height: 84px;
+    display: block;
+    margin: 0 auto;
   }
 
 }
