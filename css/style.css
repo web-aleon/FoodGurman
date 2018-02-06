@@ -1251,7 +1251,7 @@ h3 {
 .allpackages-section {
   background: url("../img/allpackages-bg.jpg");
   background-size: cover;
-  padding: 55px 65px;
+  padding: 55px 0 65px;
   text-align: center;
   color: #2b2727;
 }
@@ -1394,4 +1394,304 @@ h3 {
 
 .howworks-section .bottom-text .color {
   color: #7941a3;
+}
+
+/* INVESTITION SECTION */
+
+.invest-section {
+  padding: 99px 0 105px;
+  text-align: center;
+  color: #fff;
+  background: url("../img/invest-bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.invest-section h2 {
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.invest-section .text {
+  margin-top: 71px;
+  margin-bottom: 51px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.invest-section .button {
+  width: 449px;
+  height: 84px;
+  font-size: 26px;
+}
+
+/* ADVANTAGES SECTION */
+
+.advantages-section {
+  padding: 73px 0 78px;
+  background: url("../img/adv-img.jpg") calc( 50% - 389px) 227px no-repeat;
+}
+
+.advantages-section h2 {
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.advantages-section .content {
+  margin-top: 103px;
+  margin-bottom: 72px;
+}
+
+.advantages-section .content .adv-img {
+  width: 672px;
+}
+
+.advantages-section .content .list {
+  position: relative;
+  float: left;
+  width: 443px;
+  padding-top: 35px;
+}
+
+.advantages-section .content .list .arrow {
+  position: absolute;
+  top: 17px;
+  left: -122px;
+}
+
+.advantages-section .content .list .item {
+  margin-bottom: 20px;
+}
+
+.advantages-section .content .list .item .num {
+  margin-right: 27px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  color: #7941a3;
+}
+
+.advantages-section .content .list .item .text {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+  color: #333;
+}
+
+.advantages-section .bottom-text {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+}
+
+.advantages-section .bottom-text span {
+  color: #ff6600;
+}
+
+/* SOLUTION SECTOION */
+
+.solution-section {
+  padding: 63px 0 160px;
+  background: url("../img/solution-bg.jpg") 50% 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.solution-section .border {
+  position: absolute;
+  top: 312px;
+  left: -75px;
+  height: 324px;
+  width: 65%;
+  background: url("../img/solution-border.png") 100% 100% no-repeat;
+}
+
+@media (max-width: 1635px) {
+  .solution-section .border {
+    width: 67%;
+  }
+}
+
+@media (max-width: 1465px) {
+  .solution-section .border {
+    width: 69%;
+  }
+}
+
+@media (max-width: 1465px) {
+  .solution-section .border {
+    width: 71%;
+  }
+}
+
+.solution-section h2 {
+  font-size: 42px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.solution-section .desc {
+  margin: 7px 0 208px;
+  font-size: 24px;
+  letter-spacing: 3.52px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.solution-section .content {
+  color: #201d1d;
+  font-family: "Myriad", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  width: 740px;
+}
+
+/* ANY QUESTIONS */
+
+.questions-section {
+  padding: 83px 0 112px;
+  color: #7f45a9;
+}
+
+.questions-section .flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.questions-section .first {
+  width: 444px;
+  min-width: 444px;
+  border-right: 3px solid #7f45a9;
+  padding-top: 11px;
+  padding-bottom: 21px;
+}
+
+.questions-section .first h2 {
+  font-size: 48px;
+  line-height: 49px;
+  letter-spacing: -1.08px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.questions-section .first .desc {
+  text-decoration: underline;
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  color: #7f45a9;
+}
+
+.questions-section .second {
+  font-size: 24px;
+  padding-left: 31px;
+  line-height: 34px;
+}
+
+/* REQUEST SECTION */
+
+.request-section {
+  padding: 72px 0 63px;
+  background: url("../img/message-bg.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.request-section .request-content {
+  width: 985px;
+  margin: 0 auto;
+  border: 10px solid rgba(0, 0, 0, 0.3);
+  padding: 65px 0 84px;
+}
+
+.request-section h2 {
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.request-section form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 38px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.request-section .input-wrap {
+  border: none;
+  width: 212px;
+  margin-right: 10px;
+}
+
+.request-section label {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-left: 9px;
+}
+
+.request-section input {
+  border: 1px solid #fff;
+  width: 100%;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+  padding-left: 9px;
+  height: 46px;
+  border-radius: 4px;
+}
+
+.request-section .button {
+  font-size: 14px;
+  width: 246px;
+  height: 46px;
+  background-color: #004f85;
+}
+
+.footer {
+  padding: 42px 0;
+}
+
+.footer .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .logo {
+  margin-left: 68px;
+}
+
+.footer .footer-text {
+  font-size: 26px;
+}
+
+.footer .footer-contact {
+  text-align: center;
+}
+
+.footer .footer-contact .phone {
+  font-size: 34px;
+  color: #004f85;
+  line-height: 34px;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.footer .footer-contact .callback-link {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #ff6805;
+  display: block;
 }
