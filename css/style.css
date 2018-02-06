@@ -1086,3 +1086,312 @@ h3 {
   letter-spacing: -0.84px;
   margin-bottom: 19px;
 }
+
+/* PACKAGES SECTION */
+
+.packages-section {
+  padding: 51px 0 93px;
+  background: url("../img/packages-bg.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.packages-section h2 {
+  font-weight: 400;
+  font-size: 42px;
+}
+
+.packages-section .subtitle {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 111px;
+}
+
+.packages-section .subtitle span {
+  display: inline-block;
+  padding: 10px 17px;
+  border: 3px solid #ee562f;
+  line-height: 17px;
+}
+
+.packages-section .packages-items {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.packages-section .packages-items .item {
+  width: 287px;
+}
+
+.packages-section .packages-items .item .item-title {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.packages-section .packages-items .item .item-title span {
+  text-transform: none;
+}
+
+.packages-section .packages-items .item .item-subtitle {
+  font-size: 11px;
+  font-weight: bold;
+  color: #c9b2da;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+}
+
+.packages-section .packages-items .item .item-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.packages-section .packages-items .item .item-img-1 {
+  margin-top: 24px;
+}
+
+.packages-section .packages-items .item .item-img-2 {
+  margin-top: 25px;
+}
+
+.packages-section .packages-items .item .item-img-3 {
+  margin-top: 29px;
+}
+
+.packages-section .packages-items .item .item-img-4 {
+  margin-top: 24px;
+}
+
+.packages-section .packages-items .item .item-content {
+  padding-top: 38px;
+  padding-bottom: 42px;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.packages-section .packages-items .item .item-attrs {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21.03px;
+}
+
+.packages-section .packages-items .item .item-divider {
+  background: #fff;
+  height: 1px;
+  width: 65px;
+  margin: 19px auto 16px;
+}
+
+.packages-section .packages-items .item .total {
+  font-size: 31px;
+}
+
+.packages-section .packages-items .item .total .sup-color {
+  font-size: 17px;
+  letter-spacing: 3.6px;
+  color: #ba7de7;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.8em;
+  text-decoration: underline;
+}
+
+.packages-section .packages-items .item .total .sup {
+  font-size: 17px;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+.packages-section .packages-items .item .item-text {
+  font-size: 13px;
+  line-height: 19.12px;
+  letter-spacing: -0.14px;
+  margin: 35px 0 40px;
+  text-align: left;
+  padding: 0 14px;
+  height: 70px;
+}
+
+.packages-section .packages-items .item .button {
+  font-size: 14px;
+  width: 239px;
+  height: 45px;
+}
+
+.packages-section .packages-items .item .item-footer {
+  position: relative;
+  margin-top: 5px;
+  border: 5px solid rgba(255, 102, 0, 0.2);
+  height: 142px;
+}
+
+.packages-section .packages-items .item .item-footer .icon-block {
+  position: absolute;
+  background-color: #0D3B5D;
+  padding: 0 11px;
+  top: -30.5px;
+  left: calc(50% - 34px);
+}
+
+.packages-section .packages-items .item .item-footer .item-footer-text {
+  font-size: 13.5px;
+  line-height: 16px;
+  text-align: left;
+  padding: 20px 13px 17px;
+}
+
+/* ALL PACKAGES SECTION */
+
+.allpackages-section {
+  background: url("../img/allpackages-bg.jpg");
+  background-size: cover;
+  padding: 55px 65px;
+  text-align: center;
+  color: #2b2727;
+}
+
+.allpackages-section h2 {
+  font-size: 60px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+
+.allpackages-section .content {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.allpackages-section .last {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+/* NOT FOR ALL SECTION */
+
+.notforall-section {
+  padding: 72px 38px;
+  background: url("../img/notforall-hand.png") calc(50% + 740px) -15px no-repeat;
+}
+
+.notforall-section .container {
+  position: relative;
+}
+
+.notforall-section h2 {
+  font-size: 42px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.notforall-section .main {
+  margin-top: 24px;
+}
+
+.notforall-section .content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 675px;
+  top: 210px;
+  right: 80px;
+  position: absolute;
+}
+
+.notforall-section .content .text {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 46px;
+  color: #004f85;
+}
+
+.notforall-section .bottom-text {
+  margin-top: 16px;
+  font-size: 30px;
+  color: #333;
+  line-height: 30px;
+  text-align: center;
+}
+
+.notforall-section .bottom-text .color {
+  color: #ff6600;
+}
+
+.notforall-section .hand {
+  position: absolute;
+  top: 0;
+  right: -645px;
+}
+
+/* HOW WORKS SECTION */
+
+.howworks-section {
+  padding: 75px 0 79px;
+  background-color: #fce8e2;
+}
+
+.howworks-section .flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howworks-section h2 {
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.howworks-section .content {
+  margin-top: 65px;
+  margin-bottom: 16px;
+}
+
+.howworks-section .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 27px;
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: -0.36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howworks-section .item .num {
+  margin-right: 19px;
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  color: #7941a3;
+}
+
+.howworks-section .button {
+  width: 449px;
+  height: 84px;
+  font-size: 26px;
+  margin-bottom: 31px;
+}
+
+.howworks-section .bottom-text {
+  font-size: 24px;
+}
+
+.howworks-section .bottom-text .color {
+  color: #7941a3;
+}
