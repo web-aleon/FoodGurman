@@ -113,8 +113,8 @@ p, h1, h2, h3 {
   margin: 0 auto;
   padding: 0 15px;
 
-  @media (max-width: 1200px){
-    width: 960px;
+  @media (max-width: 1255px){
+    width: 960px; /* .8 */
   }
   @media (max-width: 1006px){
     width: 750px; /*0.755*/
@@ -168,6 +168,12 @@ p, h1, h2, h3 {
   }
   .logo {
     margin: 0;
+    
+    img {
+      @media (max-width: 1255px){
+        width: 191px;
+      }
+    }
   }
   .header-text {
     margin-top: 48px;
@@ -176,10 +182,20 @@ p, h1, h2, h3 {
     line-height: 27px;
     text-shadow: 1px 1px 1px #000;
     color: #fff;
+
+    @media (max-width: 1255px){
+      line-height: 23px;
+      font-size: 18px;
+      margin-top: 38px;
+    }
     
     span {
       text-transform: uppercase;
       font-size: 26px;
+
+      @media (max-width: 1255px){
+        font-size: 22px;
+      }
     }
   }
   .header-contact {
@@ -192,7 +208,13 @@ p, h1, h2, h3 {
       margin-bottom: 7px;
       color: #66bcff;
       font-size: 34px;
-      line-height: 34px;
+      line-height: 1em;
+
+      @media (max-width: 1255px){
+        margin-top: 25px;
+        margin-bottom: 6px;
+        font-size: 27px;
+      }
     }
 
     .button {
@@ -200,6 +222,12 @@ p, h1, h2, h3 {
       padding: 0 35px;
       font-size: 15px;
       text-transform: uppercase;
+
+      @media (max-width: 1255px){
+        height: 40px;
+        padding: 0 28px;
+        font-size: 14px;
+      }
     }
 
   }
@@ -213,6 +241,11 @@ p, h1, h2, h3 {
   padding-bottom: 50px;
   text-transform: uppercase;
 
+  @media (max-width: 1255px){
+    padding-top: 168px;
+    padding-bottom: 40px;
+  }
+
   .flex {
     flex-direction: column;
     align-items: flex-end;
@@ -221,11 +254,16 @@ p, h1, h2, h3 {
   
   .banner-title {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 1em;
     text-align: right;
     color: #fff;
     margin-top: 0;
     margin-bottom: 40px;
+
+    @media (max-width: 1255px){
+      margin-bottom: 32px;
+      font-size: 48px;
+    }
     
     span {
       background: rgba(0, 0, 0, .4);
@@ -236,6 +274,10 @@ p, h1, h2, h3 {
     .bold {
       margin-bottom: 9px;
       font-weight: bold;
+
+      @media (max-width: 1255px){
+        margin-bottom: 7px;
+      }
     }
   }
   .banner-color-text {
@@ -243,6 +285,10 @@ p, h1, h2, h3 {
     color: #ee5730;
     letter-spacing: -0.42px;
     margin-bottom: 4px;
+
+    @media (max-width: 1255px){
+      font-size: 33px;
+    }
     
     sup {
       font-size: 57%;
@@ -253,6 +299,10 @@ p, h1, h2, h3 {
     text-align: center;
     font-size: 42px;
     letter-spacing: -0.42px;
+
+    @media (max-width: 1255px){
+      font-size: 33px;
+    }
   }
 
   .banner-action-block {
@@ -261,6 +311,12 @@ p, h1, h2, h3 {
     margin-top: 45px;
     border: 8px solid rgba(255, 255, 255, .2);
     padding: 9px;
+
+    @media (max-width: 1255px){
+      width: 480px;
+      height: 277px;
+      margin-top: 34px;
+    }
   }
   .banner-action-inner-block {
     width: 100%;
@@ -268,6 +324,10 @@ p, h1, h2, h3 {
     padding: 17px 42px 0;
     background-color: rgba(0, 0, 0, .2);
     color: #fff;
+
+    @media (max-width: 1255px){
+      padding: 13px 17px;
+    }
   }
   .banner-action-text {
     font-family: "Myriad", sans-serif;
@@ -275,10 +335,18 @@ p, h1, h2, h3 {
     margin-bottom: 47px;
     float: left;
 
+    @media (max-width: 1255px){
+      margin-bottom: 37px;
+    }
+
     .first {
       float: left;
       font-size: 60px;
-      line-height: 60px;
+      line-height: 1em;
+
+      @media (max-width: 1255px){
+        font-size: 48px;
+      }
     }
     .second {
       float: left;
@@ -286,6 +354,13 @@ p, h1, h2, h3 {
       line-height: 24px;
       margin-top: 6px;
       margin-left: 15px;
+
+      @media (max-width: 1255px){
+        font-size: 24px;
+        line-height: 21px;
+        margin-top: 5px;
+        margin-left: 12px;
+      }
     }
     .color-text {
       color: #ff6600;
@@ -296,12 +371,22 @@ p, h1, h2, h3 {
       font-size: 73px;
       line-height: 62px;
       text-transform: uppercase;
+
+      @media (max-width: 1255px){
+        font-size: 58px;
+        line-height: 50px;
+      }
     }
     .fourth {
       display: block;
       float: left;
       font-size: 29px;
       line-height: 21px;
+
+      @media (max-width: 1255px){
+        font-size: 23px;
+        line-height: 18px;
+      }
     }
   }
   .button {
@@ -311,12 +396,24 @@ p, h1, h2, h3 {
     margin: 0 auto;
     text-align: center;
     font-size: 22px;
+
+    @media (max-width: 1255px){
+      height: 61px;
+      width: 324px;
+      font-size: 17.6px;
+    }
   }
 
   .banner-img {
     position: absolute;
     top: -9px;
     left: -264px;
+
+    @media (max-width: 1255px){
+      width: 785px;
+      top: -7px;
+      left: -222px;
+    }
   }
 
 }
