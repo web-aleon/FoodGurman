@@ -290,6 +290,7 @@ h3 {
   color: #66bcff;
   font-size: 34px;
   line-height: 1em;
+  text-shadow: 0px 0px 1px #000;
 }
 
 @media (max-width: 1255px) {
